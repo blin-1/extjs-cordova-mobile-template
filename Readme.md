@@ -3,33 +3,26 @@ Required :
 Sencha Cmd, Android SDK, Cordova and Node installed
 
 ---------------------------------------
-Sencha and cordova commands to create and run an app
+Sencha and cordova initialization
 
-This is already done here
+    sencha -sdk /path/to/sdk generate app -c MyController -v MyView -modern MyApp /path/to/yourBaseDir
 
-To Create :
+    sencha cordova init com.me.MyApp MyApp
+    
+    cd cordova
+    
+    cordova add platform android -- save
 
-cd yourWebRoot
-
-sencha -sdk /path/to/sdk generate app -c MyController -v MyView -modern MyApp .
-
+----------------------------------------
+To run in dev mode
 --------------------------------------
-To Run in Dev mode:
 
   sencha app build development
 
   sencha app watch
 
 --------------------------------------
-Packaging to device
-
-  sencha cordova init com.me.MyApp MyApp
-
-  cd cordova
-  
-  cordova add platform android -- save
-
-To emulate apk
+To run on phone emulator with android SDK
 --------------------------------------
   sencha app build production
 
