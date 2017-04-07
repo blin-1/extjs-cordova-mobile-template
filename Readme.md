@@ -17,9 +17,8 @@ Sencha and cordova initialization
 To run in dev mode
 --------------------------------------
 
-  sencha app build development
-
-  sencha app watch
+    sencha app build development
+    sencha app watch
 
 --------------------------------------
 To run on phone emulator with android SDK
