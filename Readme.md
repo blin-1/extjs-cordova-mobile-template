@@ -15,7 +15,7 @@
     sencha -sdk /path/to/sdk generate app -modern MyApp /path/to/yourBaseDir
     sencha cordova init com.me.MyApp MyApp
     cd cordova
-    cordova add platform android -- save
+    cordova platform add android -- save
 
 ----------------------------------------
 <h2>To run in dev mode</h2>
