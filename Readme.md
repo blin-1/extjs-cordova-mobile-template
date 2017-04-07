@@ -8,7 +8,9 @@
     Node
 
 ----------------------------------------
-<h2>Project initialization in empty yourBaseDir (already done here)</h2>
+<h2>Project initialization in empty yourBaseDir</h2>
+    
+    (already done here, but you should really redo this on empty baseDir )
 
     sencha -sdk /path/to/sdk generate app -c MyController -v MyView -modern MyApp /path/to/yourBaseDir
     sencha cordova init com.me.MyApp MyApp
