@@ -1,4 +1,4 @@
-Sencha and cordova commnads to create and run this app
+Sencha and cordova commands to create and run this app
 
 To Create :
 cd yourWebRoot
