@@ -20,6 +20,7 @@ To run in dev mode
 --------------------------------------
 To run on phone emulator with android SDK
 --------------------------------------
-  sencha app build production
-  sencha app build native
-  cordova emulate
+    
+    sencha app build production
+    sencha app build native
+    cordova emulate
