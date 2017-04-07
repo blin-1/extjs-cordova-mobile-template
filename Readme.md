@@ -12,7 +12,7 @@
     
     (already done here, but you should really redo this on empty baseDir )
 
-    sencha -sdk /path/to/sdk generate app -c MyController -v MyView -modern MyApp /path/to/yourBaseDir
+    sencha -sdk /path/to/sdk generate app -modern MyApp /path/to/yourBaseDir
     sencha cordova init com.me.MyApp MyApp
     cd cordova
     cordova add platform android -- save
